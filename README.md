@@ -2,22 +2,6 @@
 
 A modern, feature-rich Python desktop application designed to streamline daily task management. This application provides a secure environment for users to organize, track, and prioritize their work using a graphical interface and a persistent MySQL database.
 
----
-
-## 🖼️ Screenshots
-
-> **Note:** To see your images here, create a folder named `screenshots` in your repository and upload your files (e.g., `app_main.png`).
-
-| Welcome Screen | Login Page |
-| :---: | :---: |
-| ![Welcome Screen](screenshots/welcome.png) | ![Login](screenshots/login.png) |
-
-| Task Dashboard | Data Management |
-| :---: | :---: |
-| ![Dashboard](screenshots/dashboard.png) | ![History](screenshots/history.png) |
-
----
-
 ## ✨ Key Features
 
 - **Interactive UI**: Features a dynamic welcome screen with an animated bubble background.
