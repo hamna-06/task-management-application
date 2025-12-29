@@ -1,27 +1,52 @@
-# task-management-application
-This project is a Desktop-Based Task Scheduler developed in Python using Tkinter, integrated with a MySQL database to allow users to register, login, and manage tasks. The app supports task categorization, deadlines, priorities, and status tracking. Each task is linked to a user, making the system multi-user supported.
+# 📝 Task Scheduler Application
 
-Aims and Objectives:</br>
-•	Provide a user-friendly interface for users to manage their daily tasks.</br>
-•	Allow users to categorize tasks with deadlines and priorities.</br>
-•	Integrate authentication (Login/Registration).</br>
-•	Maintain task logs and track task history.</br>
-•	Provide auto-update for task status after the deadline.</br></br></br>
+A modern, feature-rich Python desktop application designed to streamline daily task management. This application provides a secure environment for users to organize, track, and prioritize their work using a graphical interface and a persistent MySQL database.
 
+---
 
+## 🖼️ Screenshots
 
-Project Scope:</br></br>
-The system is intended for:</br>
-•	Students managing academic and personal tasks.</br>
-•	Office workers tracking deadlines and deliverables.</br>
-•	Individuals maintaining to-do lists efficiently.</br>
+> **Note:** To see your images here, create a folder named `screenshots` in your repository and upload your files (e.g., `app_main.png`).
 
+| Welcome Screen | Login Page |
+| :---: | :---: |
+| ![Welcome Screen](screenshots/welcome.png) | ![Login](screenshots/login.png) |
 
-It supports:</br></br>
-•	User registration & login</br>
-•	Adding, editing, and deleting tasks</br>
-•	Categorizing and prioritizing tasks</br>
-•	Database-driven task storage</br>
-•	GUI-based interaction (Tkinter)</br>
-•	Task log/history tracking
+| Task Dashboard | Data Management |
+| :---: | :---: |
+| ![Dashboard](screenshots/dashboard.png) | ![History](screenshots/history.png) |
 
+---
+
+## ✨ Key Features
+
+- **Interactive UI**: Features a dynamic welcome screen with an animated bubble background.
+- **Secure Authentication**: User registration and login with **SHA-256 password encryption**.
+- **Task Management (CRUD)**: Create, view, update, and delete tasks with ease.
+- **Smart Tracking**: 
+    - **Deadlines**: Integrated calendar system (`tkcalendar`) for precise scheduling.
+    - **Priority**: Assign Low, Medium, or High priority levels.
+    - **Status**: Mark tasks as "Pending" or "Completed".
+- **Category System**: Multi-category support to organize tasks by Work, Personal, etc.
+- **Audit Logs**: A built-in `TaskHistory` system that tracks every change made to your tasks.
+- **Data Persistence**: Powered by a relational MySQL database for reliable storage.
+
+---
+
+## 🛠️ Technology Stack
+
+* **Frontend**: Python (Tkinter & ttk)
+* **Database**: MySQL
+* **Libraries**: `mysql-connector-python`, `tkcalendar`, `hashlib`
+
+---
+
+## 🚀 Installation & Setup
+
+### 1. Prerequisites
+Ensure you have **Python 3.x** and **MySQL** (via XAMPP or MySQL Server) installed.
+
+### 2. Install Dependencies
+Run the following command to install the required Python libraries:
+```bash
+pip install mysql-connector-python tkcalendar
